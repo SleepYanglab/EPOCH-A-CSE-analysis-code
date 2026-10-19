@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this analysis code, please cite the associated manuscript."
+title: "Analysis code for What Predicts Creative Self-Efficacy?"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Minqi
+  - family-names: Guan
+    given-names: Yawen
+  - family-names: Zhang
+    given-names: Zheng
+  - family-names: Qu
+    given-names: Chunyu
+version: 1.0.0
+date-released: 2026-10-19
+license: MIT
+repository-code: "https://github.com/SleepYanglab/EPOCH-A-CSE-analysis-code"

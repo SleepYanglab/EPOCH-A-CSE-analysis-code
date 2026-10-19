@@ -1,0 +1,13 @@
+# Confidential study data and derived participant-level outputs
+data/
+results/
+
+# Local environments and caches
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+Thumbs.db
