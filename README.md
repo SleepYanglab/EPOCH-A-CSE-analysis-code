@@ -1,7 +1,7 @@
 # Analysis code for *What Predicts Creative Self-Efficacy?*
 
 This repository contains the Python analysis code accompanying the manuscript
-*What Predicts Creative Self-Efficacy? An Explainable Machine Learning Study*.
+*What Predicts Creative Self-Efficacy? A Cross-Validated Machine Learning Study*.
 
 The participant-level EPOCH-A survey data are **not included**. They contain
 potentially sensitive survey information, and the authors do not have
@@ -45,6 +45,7 @@ uv run python scripts/ordinal_measurement.py
 uv run python scripts/domain_shapley.py
 uv run python scripts/cross_model_importance_stability.py
 uv run python scripts/self_evaluation_structure_sensitivity.py
+uv run python scripts/flow_measurement_sensitivity_complete.py
 uv run python scripts/build_apa_figures.py
 ```
 
@@ -62,6 +63,10 @@ The workflow includes repeated nested cross-validation, comparison of linear
 and tree-based algorithms, domain deletion and retraining, exact domain Shapley
 allocation across all 64 domain combinations, construct-level permutation
 importance, ordinal measurement models, and prespecified sensitivity analyses.
+The flow-measurement sensitivity workflow repeats the complete six-domain
+analysis and exact 64-subset Shapley decomposition after removing the three
+flow items judged closest in meaning to efficacy beliefs, and also evaluates
+the corresponding random-forest deletion result.
 The results are predictive associations from cross-sectional self-report data;
 they are not causal estimates.
 

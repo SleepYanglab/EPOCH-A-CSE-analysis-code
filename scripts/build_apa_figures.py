@@ -21,22 +21,22 @@ MODEL_LABELS = {
     "RBF_SVR": "RBF support vector regression", "MeanBaseline": "Mean baseline",
 }
 DOMAIN_LABELS = {
-    "trait_flow": "Dispositional flow", "self_evaluation": "Human-trait self-ratings",
+    "trait_flow": "Dispositional flow", "self_evaluation": "Human-attribute self-ratings",
     "digital_behavior": "Digital behavior",
     "attention_cognitive": "Attention-related experiences",
     "family_environment": "Family/environment", "background": "Background",
 }
 CONSTRUCT_LABELS = {
     "trait_flow_SMC": "Dispositional flow",
-    "positive_self_evaluation": "Positive human-trait ratings",
+    "positive_self_evaluation": "Positive human-attribute ratings",
     "digital_multitasking_DDMB": "Digital media multitasking",
     "hyperactivity_HD": "Hyperactivity",
     "concentration_difficulty_C": "Concentration difficulty",
-    "negative_self_evaluation": "Negative human-trait ratings",
-    "residential_place": "Residential place",
+    "negative_self_evaluation": "Negative human-attribute ratings",
+    "residential_place": "Residential area",
     "attention_deficit_AD": "Attention deficit",
     "fragmented_information_ISB": "Fragmented information intake",
-    "gender": "Gender", "parental_control_PCOS": "Parental control",
+    "gender": "Gender", "parental_control_PCOS": "Parental intrusion",
     "exercise_E": "Exercise", "nature_connectedness_NC": "Nature connectedness",
     "problematic_internet_use_IU": "Problematic internet use",
     "mind_blank_MS": "Mind blanking",
